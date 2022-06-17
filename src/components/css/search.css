@@ -1,0 +1,11 @@
+.chips{
+    padding: 1rem;
+
+}
+.chip{
+    margin: 0.5rem;
+}
+.selector{
+    width: 300px;
+    margin-left: 3rem;
+}

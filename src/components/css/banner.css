@@ -1,0 +1,46 @@
+.bannerRoot{
+    height: 50vh;
+    position: relative;
+    background-image: url("https://new-hls.s3.amazonaws.com/hls/data/2108/website/general/bn/banner1.jpg");
+    background-position: center;
+    background-size: cover;
+     
+}
+.info{
+    background-color: rgb(22, 21, 21);
+    color:#fff;
+    width: 355px;
+    height: 180px;
+    padding: 5;
+
+
+}
+.textBanner{
+    margin-bottom: 4;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.buttonBanner{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 155px;
+    background-color: rgba(255, 103, 31);
+    border-radius: 5px;
+    color: black;
+     
+}
+.btn{
+    color:  #fff;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.btn:hover{
+    color: rgba(255, 103, 31);
+}
+.buttonBanner:hover{
+    background-color: #fff;
+}
+
+
+
+

@@ -1,0 +1,42 @@
+.calendar{
+    position: absolute;
+    top: 6vh;
+    left: 30vw;
+    max-width: 100%;
+    height:auto;
+}
+.inputSelection{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+   
+
+}
+.text{
+    text-align: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    
+       
+}
+.button:hover{
+    background-color: coral;
+}
+.people{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.input{
+    width: 6vw;
+    border:  1px solid #ccc;
+    margin-right: 10px;
+    margin-top: 5px;
+    padding: 2;
+}
+.text-button{
+    color: black;
+}

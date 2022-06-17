@@ -1,0 +1,13 @@
+.rootFooter{
+    border-top: 1px solid #ccc;
+    text-align: center;
+    font-style: italic ;
+    margin-top: 2rem;
+    background-color: whitesmoke;
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+    
+}

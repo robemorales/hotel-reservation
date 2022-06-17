@@ -1,0 +1,22 @@
+.rootResults{
+   display: flex;
+   justify-content: flex-start;
+  
+}
+.imageResult{
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+.left{
+    margin-top: 0.5rem;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.number{
+    font-weight: 1000;
+    margin-left: 2rem;
+    font-size: 1.1rem;
+    
+}

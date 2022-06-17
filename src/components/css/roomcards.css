@@ -1,0 +1,17 @@
+
+.media{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+    -webkit-transform: scale(1.1);
+    -webkit-transition: 0.4s ease-in-out;
+}
+.media:hover{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+}
+.imageWrapper{
+    overflow: hidden;
+}

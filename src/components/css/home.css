@@ -1,0 +1,37 @@
+
+.date{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(252, 251, 250);
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: 1px solid rgb(216, 219, 223);
+    border-radius: 5px;
+    
+    
+    
+}
+.rootBanner{
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+.searchDate{
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+   
+
+}
+.date:hover{
+    background-color: rgb(199, 174, 153);
+
+}
+.roomcard{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2;
+}
