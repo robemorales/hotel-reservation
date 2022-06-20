@@ -1,0 +1,14 @@
+.rootMeil{
+    background-color: aqua;
+    background-image: url("http://www.partycipa.com/wp-content/uploads/2019/02/bavion-papel.jpg");
+}
+.email{
+
+    margin-top: 36px;
+    margin-bottom: 2rem;
+}
+.bodyText{
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+

@@ -1,4 +1,8 @@
 import indoorpool from '../src/imagenes/indoorpool.jpeg';
+import indoorpool1 from '../src/imagenes/indoorpool1.jpg';
+import indoorpool2 from '../src/imagenes/indoorpool2.jpg';
+import indoorpool3 from '../src/imagenes/indoorpool3.jpg';
+import indoorpool4 from '../src/imagenes/indoorpool4.jpg';
 import bar from '../src/imagenes/bar.jpg';
 import standard from '../src/imagenes/standard.jpg';
 import outdoorpool from '../src/imagenes/outdoorpool.jpeg';
@@ -10,16 +14,23 @@ import suite from '../src/imagenes/suite.jpg';
 
 const mockData = [
     {
+        id: 1,
         src: indoorpool,
+        src1: indoorpool1,
+        src2: indoorpool2,
+        src3: indoorpool3,
+        src4: indoorpool4,
         title: "Our indoor pool",
         description: "25m long indoor pool with hammock and sauna"
     },
     {
+        id: 2,
         src: bar,
         title: "Cocktail bar",
         description: "Espendid clasis cocktail bar with live music"
     },
     {
+        id: 3,
         src: standard,
         title: "Standard Room",
         description: "20 sqm room with full amenities",
@@ -30,12 +41,14 @@ const mockData = [
         notAvailableend: new Date(2022, 6, 16).getTime(),
     },
     {
+        id: 4,
         src: outdoorpool,
         title: "Our outdoor pool",
         description: "Infinity pool with breath taking Ocean views",
         
     },
     {
+        id: 5,
         src: executive,
         title: "Executive room",
         description: "Our business rooms lounge addess",
@@ -46,6 +59,7 @@ const mockData = [
         notAvailableend: new Date(2022, 6, 16).getTime(),
     },
     {
+        id: 6,
         src: withbalcony,
         title: "Rooms with balcony",
         description: "Rooms with amazinf views",
@@ -56,6 +70,7 @@ const mockData = [
         notAvailableend: new Date(2022, 6, 16).getTime(),
     },
     {
+        id: 7,
         src: juniorsuite,
         title: "Junior Suite room",
         description: "Our JuniorSuite rooms ",
@@ -66,14 +81,15 @@ const mockData = [
         notAvailableend: new Date(2022, 6, 16).getTime(),
     },
     {
+        id: 8,
         src: suite,
         title: "Our Corner Suite",
         description: "Discrete and luxiurious with butler service",
         cat: "room",
         price: 350,
         stock: 4,
-        notAvailablestart: new Date(2022,0,16).getTime(),
-        notAvailableend: new Date(2022,0,20).getTime(),
+        notAvailablestart: new Date(2022,5,16).getTime(),
+        notAvailableend: new Date(2022,5,20).getTime(),
     },
     
     

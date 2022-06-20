@@ -31,9 +31,10 @@ const Home = () => {
            <div className='roomcard'>
            <Grid container  spacing={1}>
                 {
-                  mockData.map(({src, title, description}, index)=>(
+                  mockData.map(({id, src, title, description}, index)=>(
                     <Grid item sm="6" md="4" lg="3">
                         <RoomCards 
+                          id={id}
                           src={src}
                           title = {title}
                           description ={description}
