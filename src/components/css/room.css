@@ -4,36 +4,13 @@
 
 
 .imageResult1{
-    max-width: 350px;
+    max-width: 700px;
     height: auto;
     border-radius: 10px;
-    margin-right: 10px;
+    
+   
 }
 
-.imageResult2{
-    width: 350px;
-    height: 177px;
-    border-radius: 10px;
-    margin-right: 10px;
-}
-.imageResult3{
-    width: 350px;
-    height: 177px;
-    border-radius: 10px;
-    margin-right: 10px;
-}
-.imageResult4{
-    width: 350px;
-    height: 177px;
-    border-radius: 10px;
-    margin-right: 10px;
-}
-.imageResult5{
-    width: 350px;
-    height: 177px;
-    border-radius: 10px;
-    margin-right: 10px;
-}
 .down{
     margin: 1rem;
 }

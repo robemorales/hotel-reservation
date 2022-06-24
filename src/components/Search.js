@@ -12,12 +12,12 @@ const Search = () => {
   const [value, setValue] = useState(400)
   const start = useSelector(selectStart);
   const end = useSelector(selectEnd);
-
+  const testDate = mockData.map((date)=>new Date(date.notAvailablestart).getTime())
   const handleChange=(e, newValue)=>{
        setValue(newValue)
        console.log(value)
        console.log("este es end"+end)
-       console.log("este es start"+start)
+       console.log("este es start de mock data"+testDate)
   }
   return (
     <div className='rootSearchPage'>
@@ -26,6 +26,7 @@ const Search = () => {
       </Typography>
       <div className='chips'>
         {
+            
             chips.map(data => {
               let icon = <HighlightOffTwoTone/>
               return(
@@ -58,7 +59,7 @@ const Search = () => {
         mockData
         .filter((data)=>data.cat ==="room")//Filtra por room, la ostia!!!
         .filter((data)=>data.price <= value)
-        .filter((data)=> end < data.notAvailablestart || start > data.notAvailableend)
+        .filter((data)=> end < new Date(data.notAvailablestart).getTime()  || start > new Date(data.notAvailableend).getTime())
         .map(({src, title, description, price, stock, notAvailablestart, notAvailableend},index)=>(
           
           <Results

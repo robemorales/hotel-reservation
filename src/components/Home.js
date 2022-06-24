@@ -6,6 +6,7 @@ import DatePicker from './DatePicker'
 import RoomCards from './RoomCards'
 import './css/home.css'
 
+
 const Home = () => {
   const [showdate, setShowdates] =useState(false);
   return (
