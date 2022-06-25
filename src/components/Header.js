@@ -16,6 +16,7 @@ import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
 import {useNavigate} from  'react-router-dom';
+import BuildCircleIcon from '@mui/icons-material/BuildCircle';
 
 
 
@@ -220,6 +221,11 @@ export default function PrimarySearchAppBar() {
               color="inherit"
             >
               <AccountCircle />
+            </IconButton>
+            <IconButton size="large" aria-label="show 4 new mails" color="inherit">
+              
+                <BuildCircleIcon onClick={()=>history("/roomManagemen/management")} />
+              
             </IconButton>
           </Box>
           <Box sx={{ display: { xs: 'flex', md: 'none' } }}>

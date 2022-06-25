@@ -3,10 +3,10 @@ import Header from './components/Header';
 import Home from './components/Home';
 import Footer from './components/Footer'
 import Search from './components/Search';
-import { Counter } from './features/counter/Counter';
 import { BrowserRouter as  BroRouter, Routes,Route, Link} from "react-router-dom"
 import Mail from './components/Mail';
 import InfoRoom from './components/InfoRoom';
+import Gestion from './components/roomManagemen/Gestion';
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
           <Route path='/mail' element={<Mail/>}></Route>
 
           <Route path='/infoRoom' element={<InfoRoom/>}></Route>
+          <Route path='/roomManagemen/management' element={<Gestion/>}></Route>
          
         </Routes>
         <Footer/>

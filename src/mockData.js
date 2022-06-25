@@ -8,10 +8,10 @@ import juniorsuite from '../src/imagenes/juniorsuite.jpg';
 import suite from '../src/imagenes/suite.jpg';
 import axios from 'axios';
 
-const baseURLrooms = "http://localhost:4000/rooms";
+export const baseURLrooms = "http://localhost:4000/rooms";
 const mockData=[];
 const imageHome=[indoorpool, bar, outdoorpool, executive, withbalcony, juniorsuite, suite,standard];
-export async function getRooms() {
+ async function getRooms() {
     try {
       const response = await axios.get(baseURLrooms);
       const data = await response.data
@@ -28,28 +28,8 @@ export async function getRooms() {
       console.error(error);
     }
   }
-  export async function putRooms(id) {
-    try {
-      const response = await axios.put(baseURLrooms+'/'+id);
-      const data = await response.data
-      data.map(room=>{
-        if(room.id === id){
-            room.id = data.id;
-            room.title = data.title;
-            room.description = data.description,
-            room.cat= data.cat,
-            room.price = data.price,
-            room.stock =data.stock,
-            room.notAvailablestart= data.notAvailablestart,
-            room.notAvailableend = data.notAvailableend
-
-        }
-      })
-      //console.log(response.data.title);
-    } catch (error) {
-      console.error(error);
-    }
-  }
+ 
+ 
 getRooms()
 /*const mockData = [
     /*{

@@ -6,9 +6,9 @@ import Checkbox from '@mui/material/Checkbox';
 import SendIcon from '@mui/icons-material/Send';
 import { useForm, ValidationError } from '@formspree/react';
 import TextField from '@mui/material/TextField';
-
-
 import TextareaAutosize from '@mui/material/TextareaAutosize';
+import Opinions from './Opinions';
+import mockData from '../mockData';
 
 const Room = ({src, title, description, price, stock, calification }) => {
     const [state, handleSubmit] = useForm("xayvzqqg");
@@ -29,8 +29,6 @@ const Room = ({src, title, description, price, stock, calification }) => {
     } 
     return check
  }
-
-    //putRooms(id)
     
 
  
@@ -61,11 +59,18 @@ const Room = ({src, title, description, price, stock, calification }) => {
                 
            } 
         </div>
-
-   
-      
-      
-   
+           {
+            mockData
+            .filter((data)=>data.opinions != '')
+            .map(({opinions}, index)=>(
+              <Opinions
+                opinions ={opinions}
+              />
+            ))
+           }
+        <div>
+          
+        </div>
         <form onSubmit={handleSubmit}>
             <div className='opinions'>
             <TextField className='emailOpinion' type="email"  name="email"    label="Enter your email address" variant="standard" />

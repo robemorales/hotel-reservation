@@ -1,0 +1,28 @@
+.tableRooms {
+    text-align: left;
+  }
+  
+ .container{
+    width: max-content;
+ }
+ .btn-danger{
+    margin-top: 10px;
+ }
+  
+.opinions{
+    max-width: 10px;
+  }
+
+  
+  .tableRooms-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
